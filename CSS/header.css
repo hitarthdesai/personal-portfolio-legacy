@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+header {
+  background-color: #5cdb95;
+  width: 100vw;
+  position: fixed;
+  z-index: 200;
+}
+
+header > div {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 35px;
+}
+
+header nav {
+  background-color: #05386b;
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  width: 25vw;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 12px;
+  color: #edf5e1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  background-color: #edf5e1;
+  color: #05386b;
+}
